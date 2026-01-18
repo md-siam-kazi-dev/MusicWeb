@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+        /* Variables  */
+:root{
+    --gradient-color:linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    --primary-bg:#1A0B2E;
+}
+
+        /* Variables  end  */
+
+
+        /* Shared Css  */
+
+.inter{
+    font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+}
+.p-first{
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.p-second{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+ /* gradient Button css  */
+.g-btn{
+
+    border: none;
+    background: var(--gradient-color);
+    display: flex;
+    gap:4px;
+    padding: 12px 16px;
+    border-radius: 1000px;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+
+.color-heading{
+    background: var(--gradient-color);
+    color: transparent;
+    background-clip: text;
+   
+}
+
+
+        /* Shared Css end  */
+
+
+                /* Main Css  */
+
+
+    /* Nav css star  */
+header{
+    width: 100%;
+   
+    
+}
+nav{
+    width: 100%;
+
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10061d;
+    border-bottom: 1px solid #412567;
+}
+.nav-inner{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul{
+    display: none; /*hidden for mobile */
+    justify-content: space-between ;
+    align-items: center;
+    gap: 32px ;
+}
+nav ul li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.nav-btn{
+    display: none;
+}
+.nav-ham-icon{
+    
+    height: 24px;
+    width: 24px;
+
+}
+
+
+
+     /* nav css end  */
+
+     /* banner css start  */
+.banner{
+    
+    padding: 0px 20px 40px 20px;
+    width: 100%;
+    justify-content: center;
+    background: url(../assets/hero-bg.png),#1A0B2E;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    background-size:contain;
+ 
+   background-position: center 80px ;
+    border: 1px solid black;
+    
+}
+.banner-img{
+    background: url(../assets/hero-circle.png);
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    position: relative;
+     height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15vw auto 24px auto;
+    
+    
+    
+    
+   
+}
+.banner-img img{
+    height: 70px;
+   
+}
+
+.banner-h-p{
+    text-align: center;
+}
+ /* Chalange css part  */
+.new-abs-div{
+    position:absolute;
+    top: 0;
+    right: 0;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    font-size:16px ;
+    font-weight: 600;
+    padding: 8px 16px;
+    box-shadow: 0 3px 27px 0px #00ff887c;
+    color: var(--primary-bg) ;
+    
+}
+.banner-h-p{
+ margin: 0 auto 24px auto;
+}
+.banner-h-p h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 8px;
+}
+.banner-h-p p{
+    font-size: 16px;
+    color: white;
+  
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap:8px ;
+}
+.banner-btn-right{
+    border: 1px solid #00FF88;
+    background: transparent;
+    
+    display: flex;
+    gap:4px;
+    padding: 12px 16px;
+    border-radius: 1000px;
+    font-weight: 600;
+    color: #00FF88;
+    font-size: 16px;
+}
+     /* banner css end  */
+
+     /* pokdcast css :start  */
+.podcast{
+    width: 100%;
+    background-color: #10061d;
+    padding: 40px 20px;
+    text-align: center;
+}
+.podcast-inner-1{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #412567;
+}
+.podcast-inner-1 h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.podcast-inner-1 p{
+    margin-bottom: 16px;
+    
+}
+
+.podcast-inner-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+
+.podcast-card h1{
+    text-align: center;
+    font-size: 40px;
+    color: #00FF88;
+    font-weight:900;
+    margin-bottom: 16px;
+}
+      /* pokdcast css :end  */
+
+
+#why-chose{
+    width: 100%;
+    background-color: #361e5c;
+    text-align: center;
+    padding: 40px 20px;
+}
+#why-chose h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.wc-container{
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(1,1fr);
+}
+.wc-card{
+    border-radius: 24px;
+    padding: 24px;
+    text-align: left;
+    background-color: #412567;
+}
+.wc-card img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 16px;
+}
+.wc-card h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+                /* Main css end  */
