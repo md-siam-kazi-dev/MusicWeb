@@ -65,7 +65,7 @@ nav ul{
 
 /* podcast css responsibe  */
 .podcast{
-width: 100%;
+    width: 100%;
     background-color: #1A0B2E;
     padding: 50px auto;
     
@@ -163,8 +163,31 @@ width: 100%;
      margin-bottom: 12px ;
    
 }
+/* host -card responsibe  */
+#meet-host{
+    margin: 90px auto 40px auto;
+  
+}
 
+.mh-card{
+    border-radius: 30px ;
+    padding: 24px;
+    background-color: #250D44;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-align: left;
 
+}
+.host-icon{
+    width: 200px;
+    height: 200px;
+}
+
+#meet-host h1{
+    font-size: 40px;
+
+    margin: 0px auto 40px auto;
 }
 
 /* This Media query write for Laptop and desktop  Which Min-width 576 px .In other word If device width bigger or equal than 992px  then it activate  */
@@ -277,6 +300,19 @@ width: 100%;
     max-width: 1200px;
     margin: 0px auto 0px auto;
     
+}
+
+
+/* host -card responsibe  */
+#meet-host{
+    margin: 120px auto 0 auto;
+  
+}
+
+  #meet-host h1{
+    font-size: 48px;
+
+    margin: 0px auto 40px auto;
 }
 
 
