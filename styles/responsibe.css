@@ -131,6 +131,40 @@ width: 100%;
   'EI RR';
 }
 
+ /* featured section reeponsibe  */
+
+#featured{
+    width: 100%;
+    padding: 80px 20px;
+   
+
+}
+#featured h1{
+    font-size: 40px;
+    font-weight: bold;
+   
+    margin: 0 0 40px 0;
+}
+.ifram-card-container{
+  
+    grid-template-columns: repeat(1,1fr);
+    gap: 16px;
+      margin: 0px auto 0px auto;
+}
+ .ifram-card iframe{
+    
+    margin: 0 0 24px 0;
+}
+.ifram-caption{
+    padding: 0 24px 24px 24px;
+}
+.ifram-caption h3{
+    font-size: 24px ;
+     margin-bottom: 12px ;
+   
+}
+
+
 }
 
 /* This Media query write for Laptop and desktop  Which Min-width 576 px .In other word If device width bigger or equal than 992px  then it activate  */
@@ -221,5 +255,29 @@ width: 100%;
   'PAQ GC GC'
   'EI EI RR';
 }
+
+ /* featured section reeponsibe  */
+
+#featured{
+    width: 100%;
+    padding: 80px 20px;
+   
+
+}
+#featured h1{
+    font-size: 40px;
+    font-weight: bold;
+   
+    margin: 0 0 40px 0;
+}
+.ifram-card-container{
+ 
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0px auto 0px auto;
+    
+}
+
 
 }
