@@ -124,17 +124,20 @@ nav a{
     
     padding: 0px 20px 40px 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     justify-content: center;
     background: url(../assets/hero-bg.png),#1A0B2E;
-    background-repeat: no-repeat;
     
-    background-position: center;
+    
+   
    
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
  
-   background-position: center 80px ;
-    border: 1px solid black;
+   background-position: 0 25% ;
+   
     
 }
 .banner-img{
@@ -150,7 +153,8 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:15vw auto 24px auto;
+    margin: 40px auto 40px  auto;
+     
     
     
     

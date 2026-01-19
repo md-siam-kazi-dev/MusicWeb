@@ -3,12 +3,223 @@
 
  /* This Media query write for Tablets & laptop Which Min-width 576 px .In other word If device width bigger or equal than 576px  then it activate  */
 @media (min-width: 576px) {
+
+/* Responsive css code for nav  */
+.nav-inner{
+     width: 100%; 
+}
+nav h1{
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+} 
+.nav-btn{
+    display: block;
+}
+
+.nav-ham-icon{
+   display: none;
+
+}
+
+/* banner responsiv css  */
+
+.banner{
+    
+    padding: 0px 20px 40px 20px;
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+    background-position: center;
+   
+    background-repeat: repeat;
+    background-size: cover;
+ 
+   
+   
+    
+}
+
+.banner-img{
+    background: url(../assets/hero-circle.png);
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    position: relative;
+     height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+   margin: 60px auto 40px;
+    }
+.banner-img img{
+    height: 90px;
+   
+}
+
+
+/* podcast css responsibe  */
+.podcast{
+width: 100%;
+    background-color: #1A0B2E;
+    padding: 50px auto;
+    
+}
+
+.podcast-inner-1{
+    
+    border-bottom: 1px solid #412567;
+    padding: 0 10% 0 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.podcast-inner-1 h1{
+    font-size: 44px;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+/* why chose container reponsibe css  */
+#why-chose h1{
+  font-size: 40px;
+    
+    margin-bottom: 32px;
+}
+
+#why-chose{
+   padding: 80px 20px;
+}
+
+.PAQ{
+    grid-area: PAQ;
+}
+.MF{
+    grid-area: MF;
+}
+.EI{
+    grid-area:EI;
+}
+.RR{
+    grid-area: RR;
+}
+.GC{
+    grid-area: GC;
+}
+
+.wc-container{
+  display: grid;
+  gap: 28px;
   
+ 
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas: 'PAQ PAQ'
+  'GC MF'
+  'EI RR';
+}
+
 }
 
 /* This Media query write for Laptop and desktop  Which Min-width 576 px .In other word If device width bigger or equal than 992px  then it activate  */
 
 
 @media (min-width: 992px) {
-  
+
+
+    /* nav responsive css  */
+
+
+  nav h1{
+    font-size: 36px;
+}
+
+
+/* banner css responsive  */
+.banner{
+    
+    padding: 0px 20px 40px 20px;
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+    background-position: center;
+   
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center ;
+ 
+   
+   
+    
+}
+
+
+.banner-img{
+    background: url(../assets/hero-circle.png);
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    position: relative;
+     height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+   margin: 100px auto 40px;
+    }
+.banner-img img{
+    height: 120px;
+   
+}
+  /* podcast css responsive  */
+
+.podcast-inner-1 h1{
+    font-size: 48px;
+   
+}
+.podcast-inner-2{
+    margin:40px auto 0px auto;
+    max-width: 1200px;
+    gap:80px;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+
+/* why chose responsive  */
+#why-chose{
+   padding: 120px 20px;
+}
+
+#why-chose h1{
+  font-size: 48px;
+    
+    margin-bottom: 40px;
+}
+.wc-container{
+  display: grid;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas: 'PAQ MF MF'
+  'PAQ GC GC'
+  'EI EI RR';
+}
+
 }
