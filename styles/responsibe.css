@@ -61,6 +61,19 @@ nav ul{
     height: 90px;
    
 }
+.new-abs-div{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    font-size:16px ;
+    font-weight: 600;
+    padding: 8px 16px;
+    box-shadow: 0 3px 27px 0px #00ff887c;
+    color: var(--primary-bg) ;
+    
+}
 
 
 /* podcast css responsibe  */
@@ -189,7 +202,17 @@ nav ul{
 
     margin: 0px auto 40px auto;
 }
+.host-social-icon-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    align-items: center;
+   
 
+}
+
+
+}
 /* This Media query write for Laptop and desktop  Which Min-width 576 px .In other word If device width bigger or equal than 992px  then it activate  */
 
 
@@ -243,6 +266,19 @@ nav ul{
     height: 120px;
    
 }
+.new-abs-div{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    font-size:16px ;
+    font-weight: 600;
+    padding: 8px 16px;
+    box-shadow: 0 3px 27px 0px #00ff887c;
+    color: var(--primary-bg) ;
+    
+}
   /* podcast css responsive  */
 
 .podcast-inner-1 h1{
@@ -283,7 +319,7 @@ nav ul{
 
 #featured{
     width: 100%;
-    padding: 80px 20px;
+    padding: 120px 20px;
    
 
 }
@@ -314,6 +350,7 @@ nav ul{
 
     margin: 0px auto 40px auto;
 }
+
 
 
 }

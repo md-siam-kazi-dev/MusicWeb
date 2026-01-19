@@ -362,7 +362,7 @@ nav a{
 
 /* host-section css under featured  */
 #meet-host{
-    margin: 60px auto 40px auto;
+    margin: 60px auto 0 auto;
     text-align: center;
 }
 #meet-host h1{
@@ -415,7 +415,17 @@ nav a{
 /* host-section css under featured  */
    
 
-       /* Featured section css start  */
+       /* Featured section css end  */
+
+
+       /* footer section start  */
+footer{
+    background:url('../assets/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+       /* footer section end  */
 
 
 
