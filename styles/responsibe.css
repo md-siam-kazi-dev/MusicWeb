@@ -79,6 +79,12 @@
         color: var(--primary-bg);
 
     }
+    .banner-h-p h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 16px;
+}
 
 
     /* podcast css responsibe  */
@@ -153,6 +159,20 @@
             'GC MF'
             'EI RR';
     }
+    .wc-card {
+    
+    padding: 40px;
+    
+}
+.PAQ{
+ padding-top: 100px;
+}
+.wc-card img {
+    max-width: 55px;
+   max-height: 55px;
+   margin: auto;
+    margin-bottom: 16px;
+}
 
     /* featured section reeponsibe  */
 

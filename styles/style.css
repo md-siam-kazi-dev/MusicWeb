@@ -55,6 +55,7 @@
 
 .g-btn:hover {
     transform: scale(1.05);
+    
 }
 
 .color-heading {
@@ -183,6 +184,41 @@ nav a {
 
 
 }
+.banner-img .fa-music{
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    right: -50px;
+    color: transparent;
+  
+    background: var(--gradient-color);
+    background-clip: text;
+    animation: music 2s ease-in  infinite ;
+    opacity: 0.5;
+}
+.banner-img .fa-headphones{
+    font-size: 30px;
+    position: absolute;
+    bottom:40px;
+    left: -50px;
+    color: transparent;
+  
+    background: var(--gradient-color);
+    background-clip: text;
+    animation: music 2.6s linear  infinite ;
+    opacity: 0.4;
+}
+@keyframes music {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 .banner-img img {
     height: 70px;
@@ -191,6 +227,7 @@ nav a {
 
 .banner-h-p {
     text-align: center;
+    margin-bottom: 24px;
 }
 
 /* Chalange css part  */
@@ -203,7 +240,7 @@ nav a {
     font-size: 16px;
     font-weight: 600;
     padding: 8px 16px;
-    box-shadow: 0 3px 27px 0px #00ff887c;
+    box-shadow: 0 3px 27px 5px #00ff88b8;
     color: var(--primary-bg);
 
 
@@ -223,6 +260,7 @@ nav a {
 .banner-h-p p {
     font-size: 16px;
     color: white;
+
 
 }
 
@@ -248,6 +286,10 @@ nav a {
     font-weight: 600;
     color: var(--yellow-color);
     font-size: 16px;
+    transition: 0.4s transform;
+}
+.banner-btn-right:hover{
+    transform: scale(1.05);
 }
 
 /* banner css end  */
@@ -325,8 +367,8 @@ nav a {
 }
 
 .wc-card img {
-    height: 55px;
-    width: 55px;
+    max-width: 55px;
+   max-height: 55px;
     margin-bottom: 16px;
 }
 
