@@ -1,5 +1,12 @@
 /* I designed For Mobile First Approach For Low code Css and first development  */
 
+/* Variables  */
+:root {
+    --gradient-color: linear-gradient(90deg, rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    --primary-bg: #1A0B2E;
+
+    --yellow-color: #00FF88;
+}
 
 /* This Media query write for Tablets & laptop Which Min-width 576 px .In other word If device width bigger or equal than 576px  then it activate  */
 @media (min-width: 576px) {
@@ -70,21 +77,19 @@
         position: absolute;
         top: 10px;
         right: 10px;
-        background-color: #00FF88;
-        border-radius: 1000px;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 8px 16px;
-        box-shadow: 0 3px 27px 0px #00ff887c;
+
+
+        
         color: var(--primary-bg);
 
     }
+
     .banner-h-p h1 {
-    font-weight: 800;
-    font-size: 60px;
-    color: white;
-    margin-bottom: 16px;
-}
+        font-weight: 800;
+        font-size: 60px;
+        color: white;
+        margin-bottom: 16px;
+    }
 
 
     /* podcast css responsibe  */
@@ -159,20 +164,23 @@
             'GC MF'
             'EI RR';
     }
+
     .wc-card {
-    
-    padding: 40px;
-    
-}
-.PAQ{
- padding-top: 100px;
-}
-.wc-card img {
-    max-width: 55px;
-   max-height: 55px;
-   margin: auto;
-    margin-bottom: 16px;
-}
+
+        padding: 40px;
+
+    }
+
+    .PAQ {
+        padding-top: 100px;
+    }
+
+    .wc-card img {
+        max-width: 55px;
+        max-height: 55px;
+        margin: auto;
+        margin-bottom: 16px;
+    }
 
     /* featured section reeponsibe  */
 
@@ -341,13 +349,11 @@
         position: absolute;
         top: 20px;
         right: 20px;
-        background-color: #00FF88;
-        border-radius: 1000px;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 8px 16px;
-        box-shadow: 0 3px 27px 0px #00ff887c;
-        color: var(--primary-bg);
+       
+        
+        
+       
+       
 
     }
 

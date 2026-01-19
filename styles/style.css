@@ -185,15 +185,15 @@ nav a {
 
 }
 .banner-img .fa-music{
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
-    top: 40px;
+    top: 30px;
     right: -50px;
     color: transparent;
   
     background: var(--gradient-color);
     background-clip: text;
-    animation: music 2s ease-in  infinite ;
+    animation: music 2.6s linear infinite ;
     opacity: 0.5;
 }
 .banner-img .fa-headphones{
@@ -211,6 +211,7 @@ nav a {
 @keyframes music {
     0%{
         transform: scale(1);
+
     }
     50%{
         transform: scale(1.5);
@@ -235,12 +236,12 @@ nav a {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #00FF88;
+    background-color:var(--yellow-color);
     border-radius: 1000px;
     font-size: 16px;
     font-weight: 600;
     padding: 8px 16px;
-    box-shadow: 0 3px 27px 5px #00ff88b8;
+    box-shadow: 0 3px 27px  #00ff88c0;
     color: var(--primary-bg);
 
 
