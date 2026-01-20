@@ -248,6 +248,13 @@
         margin: 0px auto 40px auto;
     }
 
+.mh-card h5 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px auto 16px auto;
+    color: white;
+}
+
     .host-social-icon-container {
         display: flex;
         justify-content: flex-start;
@@ -427,6 +434,15 @@
 
     }
 
+.mh-card {
+    border-radius: 30px;
+    padding: 40px;
+    background-color: #250D44;
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+
+
+}
     #meet-host h1 {
         font-size: 48px;
 

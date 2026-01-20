@@ -69,7 +69,7 @@ animation: btn 2.8s linear  infinite ;
         border-radius: 25px 12px 25px 12px;
     }
     60%{
-        border-radius: 25px 12px 12px 25px ;
+        border-radius: 25px 25px 12px 25px ;
     }
     60%{
         border-radius: 13px 27px 29px 12px ;
@@ -549,7 +549,7 @@ nav a {
 footer {
     background: url('../assets/footer-bg.png'), #201144;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 130vw;
 
     background-position: center;
     text-align: center;
